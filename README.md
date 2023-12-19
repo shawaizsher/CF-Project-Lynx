@@ -1,35 +1,28 @@
-<html>
-    <head>
-        <title> Lynx Agency | Marketting Agency </title>
-        <style>
-            body {
-                background-color: black;
-                color: rgb(255, 255, 255);
-                align-items: center;
-                 }
-        </style>
-    </head>
+Computer Fundamentals
+Lab Project
 
-    <body>
-        <a hreff="www.google.com" target="_blank">
-            <button>Home</button>
-        </a>
-        
-        <a href="www.google.com" target="_blank">
-        <button>About</button>
-        </a>
+Title of Project: Lynx Marketing Agency
 
-        <a hreff="www.cog.com" target="_blank">
-            <button>Contact us</button>
-        </a>
+Group Members:
+•	Shawaiz Sher(01-13132-082)
 
-<img src="lynx-removebg-preview.png" height="100">
-<h2 align-items="centre">Global Marketting Agency</h2>
-<h3>Where dreams come true</h3>
+•	Erha Riaz(01-131232-022)
 
-<a href="www.google.com">
-    <ins style="color: white;">View all</ins>
-</a>
-    
-    </body>
-</html>
+
+Title: Lynx Marketing 
+Objective of our Webpage: 
+The primary objective of the Lynx Marketing website is to create a user-friendly and informative platform that serves as an introduction to our marketing agency. The website aims to showcase our services, expertise, and achievements in a clear and accessible manner.
+Major Features: 
+The website will consist of different columns and sections which will have separate content in them. 
+1)	Home 
+Welcome message and brief overview of Lynx Marketing. Eye-catching visuals and graphics to create a welcoming and engaging first impression. Quick navigation links to essential sections.
+
+2)	About Us: 
+Comprehensive information about the agency's mission, and values. Profiles of key team members, showcasing their expertise and roles within the agency. Engaging multimedia content, such as images and videos, to humanize the agency.
+
+3)	Contact Us: 
+Clear and accessible contact information, including a contact form for inquiries. Links to social media profiles for additional communication channels. Interactive map displaying the agency's physical location.
+
+4)	JavaScript Functionalities:
+A suggestion/complaint suggestion box which will be functionalized using JavaScript in our project. Other more functionalities will be added.
+The primary objective of the Lynx Marketing website is to create a user-friendly and informative platform that serves as an introduction to our marketing agency. Minimalistic and eye-catching designs will be a part of our website, keeping it as simple and user-friendly as possible. The webpage will be created using HTML , CSS, JavaScript.
