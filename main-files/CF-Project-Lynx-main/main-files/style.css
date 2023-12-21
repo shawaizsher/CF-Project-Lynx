@@ -6,6 +6,7 @@ p
 {
     text-align: center;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 h3 
 {
@@ -55,4 +56,22 @@ li a {
     text-transform: uppercase;
 
 }
+.partnerlogo {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.missionsection {
+    display: flex;
+    justify-content: center;
+}
+.visionsection {
+    display: flex;
+    justify-content: center;
+}
+.valuessection {
+    display: flex;
+    justify-content: center;
+}
+
 
