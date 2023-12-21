@@ -1,13 +1,15 @@
 body
 {
+    background-color: #000;
     margin: 0px;
 }
 p 
 {
+    background-color: #000;
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 16px;
 }
 h3 
 {
@@ -17,9 +19,21 @@ h3
     letter-spacing: 2px;
 
 }
-*{
-    background-color: #000;
-    color: #fff;  
+h1 {
+    text-align: center;
+    font-size: 120px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+section {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+* {
+    color: azure;
+    font-family: 'Quicksand', sans-serif;
 
 }
 .topbar {
@@ -32,9 +46,26 @@ h3
 .logo {
     height: 60px;
 }
-.shawaiz {
+.shawaizpic {
      display: flex;
      justify-content: center;
+}
+.quotations {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.founderparagraph {
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cofounderparagraph {
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 li {
     list-style: none;
@@ -46,20 +77,14 @@ li a {
     margin-right: 25px;
     text-decoration: none;
 }
-#topheading {
-    text-align: center;
-    padding: 5px;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    font-size: 100px;
-}
 #aboutusheading {
     text-align: center;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-size: 75px;
+    font-size: 40px;
 
 }
+
 .partnerlogo {
     display: flex;
     justify-content: space-evenly;
