@@ -50,21 +50,29 @@ section {
      display: flex;
      justify-content: center;
 }
+#erhapic{
+    display: flex;
+    justify-content: center;
+}
 .quotations {
     display: flex;
     justify-content: center;
     position: relative;
 }
 .founderparagraph {
-    position: absolute;
-    top: 220%;
+
+    top: 170%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 40px;
+    background-color: transparent;
+    position: absolute;
 }
 .cofounderparagraph {
     position: absolute;
     top: 303%;
     left: 50%;
+    background: transparent;
     transform: translate(-50%, -50%);
 }
 li {
@@ -92,6 +100,7 @@ li a {
 .partnerlogo {
     display: flex;
     justify-content: space-evenly;
+    position: relative;
 
 }
 .missionsection {
@@ -107,7 +116,10 @@ li a {
     justify-content: center;
 }
 .formsection {
-    width: 300px;
+    background-color: #070707;
+    margin: 100%;
+    width: 400px;
+    height: auto;
     margin: 0 auto
    
 }
