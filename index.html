@@ -9,16 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="blob:https://imgur.com/ccbff23c-67ae-4268-a3c1-070a22c0924a.png" type="image/icon type">
-
+    <script src="https://kit.fontawesome.com/b87384f129.js" crossorigin="anonymous"></script>
 
    <header>
     <div class="topbar">
             <img class="logo" src="logo.png" alt="Logo">
            <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><ul><a href="#">Home</a></ul></li>
+            <li><ul><a href="#">About</a></ul></li>
+            <li><ul><a href="#">Contact Us</ul></a></li>
         </ul>
     </div>
     </header>
@@ -35,13 +34,14 @@
 <br>
 <br>
 <br>
+
 <h1 id="aboutusheading"> About Us </h1>
 <p id="aboutus"> Meet the passionate minds behind Lynx Agency.<br>Our diverse team brings together a wealth of 
     experience and creativity,<br> fostering a collaborative environment where innovation thrives.<br> 
     We're not just a team; we're a family dedicated to achieving excellence.
 </p> 
-   
-   <hr>
+<hr color="#262626" size="2">
+
   <h3 style="letter-spacing: 10px;">Founder</h3>
     <h3 id=shawaizsher>Shawaiz Sher</h3>
   <div class="shawaizpic">
@@ -53,8 +53,8 @@
       <img src="quotations.jpeg">
   </div>
     <div class="founderparagraph">
-   <p>As the Founder, I'm thrilled to share a bit about myself and the passion that drives our marketing agency.<br>
-  With a background in Software Engineering, I've dedicated my career to helping businesses thrive in<br>the ever-evolving landscape of digital marketing.
+   <p>As the Founder, I'm thrilled to share a bit about myself and the passion that drives our marketing agency. With a background in Software Engineering, <br>
+    I've dedicated my career to helping businesses thrive in the ever-evolving landscape of digital marketing.
    </p>
   </div> 
 </div>
@@ -63,40 +63,49 @@
     <h3 id=shawaizsher>Erha Riaz
 
     </h3>
+    <br> <br> 
+    <div id=erhapic>
+    <img src="erha.jpg">
+    </div>
    <div class="cofounder">
     <div class="quotations">
         <img src="quotations.jpeg">
     </div>
     <div class="cofounderparagraph">
+      
        <p>
+        <br>
          Embark on a journey with me at Lynx! As the founder, I am excited to share my story and the vision propelling our dynamic marketing agency.
         My expertise in Digital Marketting has shaped a career devoted to guiding businesses through the dynamic landscape of digital marketing.
 
        </div>
         </p>
    </div>
-
+   <hr color="#262626" size="2ss">
 
    <h3> Partnerships</h3>
     <p> 
+      <br> <br> <br> <br> <br> <br>
+      
     <div class="partnerlogo">
-    <a href="https://www.google.com" target="_blank"><img src="google-removebg-preview.png" ></a>
-    <a href="https://about.meta.com/metaverse/" target="_blank"><img src="meta-removebg-preview.png"></a>
-    <a href="https://www.tesla.com/" target="_blank"><img src="tesla.png"></a>
+     <a href="https://www.google.com/" target="_blank"> <i class="fa-brands fa-google fa-bounce fa-2xl" style="font-size: 9em;" style="color: #ffffff;"></i> </a>
+
+    <a href="https://twitter.com/TheShrekPage" target="_blank"><i class="fa-brands fa-twitter fa-bounce fa-2xl" style="font-size: 9em" style="color: #ffffff;"></i></a>
+
+    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-bounce fa-2xl" style="font-size: 9em;" style="color: #ffffff;"></i></a>
     
     </div>
 </p>
-
-
+<br> <br> <br> <br> <br> <br>
+<hr color="#262626" size="2">
 <h3>Mission</h3>
    <div class="missionsection">
        
       <img src="crosshair.jpg">
    </div>
       <br>
-       <p>Establish Global Connections <br> <br>
-         Through unparalleled <br> <br>
-         Creativity and Innovation</p>
+       <p>Establish Global Connections 
+        </p>
    </div>
  
 <H3>Vision</H3>
@@ -105,57 +114,69 @@
     <img src="eye.jpg"> 
     <br>
     </div>
-    <p>Build a more aesthetically pleasing world.<br><br>
-    Implement new ideas</p>
+    <p>Build a more aesthetically pleasing world
+    </p>
 
    </div>
 
  <H3>Values</H3>
 
    <div class="valuessection">
-    <img src="values.PNG"> 
+    <img src="values.jpg"> 
     <br>
     </div>
-    <p style="margin: 3px;">Integrity<br>Creativity<br>Innovation</p>
-
+    <p style="margin: 3px;">Implement new ideas</p>
+<br> <br> <br>
    </div>
-
-
-<h3> Gallery</h3>
-<img src="pic1.jpg">
-<img src="pic2.jpg">
-<img src="pic4.jpg">
-<img src="pic5.jpg" height="700">
-<img src="pic6.jpg">
-<img src="pic7.jpg" height="710">
-<img src="pic8.jpg">
-<img src="pic9.jpg" height="700">
-<img src="pic10.jpg" height="700">
+<hr color="#262626" size="2">
 
 <h3> Connect With Us</h3>
 <p style="font-size: 20px;"> <a href="www.lynx.come.pk" >www.lynx.com.pk</a><br>
     <br> 085-321-004  <br> </p>
 <div class="formsection">
-<form>
-    <label type="text">Enter your First Name</label>
+<form onsubmit="sendEmail()">
+    <label type="text">Enter your First Name    </label>
     <input type="text"><br>
-    <label type="text">Enter your Last Name</label>
+    <label type="text">Enter your Last Name     </label>
     <input type="text"><br>
-    <label type="text">Enter your Email Address</label>
+    <label type="text">Enter your Email Address    </label>
     <input type="email" placeholder="Enter Your Email Address"> <br>
-    <label type="text">Enter your Subject</label>
+    <label type="text">Enter your Subject    </label>
     <input type="text" placeholder="Subject"> <br> 
-    <label type="text">Enter your Message</label>
+    <label type="text">Enter your Message    </label>
     <input style=width: 50px; type="text" placeholder="Enter Your Message"> <br>
     <br>
     <label type="Checkbox">Subscribe to our Newsletter?</label> <br>
     <label for="yes">Yes</label>
     <input type="radio" value="No" >Yes</button><br>
-    <label for="yes">No</label>
-    <input type="radio" value="No">No</button><br>
+   
+    
     <button type="submit" placeholder="Submit">Submit</button>
-
+    <br>
+    <br>
+    <br>
+   
      </form>
    </div>
+
+<script> src="https://smtpjs.com/v3/smtp.js"</script>
+<script>
+  function sendEmail() 
+{
+    Email.send({
+    Host : "smtp.gmail.com",
+    Username : "erharandhawa@gmail.com",
+    Password : "googogaga",
+    To : 'erharandhawa@gmail.com',
+    From : document.getElementById("Email").value,
+    Subject : "This is the subject",
+    Body : "And this is the body"
+  }).then(
+  message => alert(message)
+  );
+}
+
+</script>
+
   </body>
 </html>
