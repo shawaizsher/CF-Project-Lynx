@@ -5,7 +5,7 @@ body
 }
 p 
 {
-    background-color: #000;
+   
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -15,7 +15,7 @@ h3
 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: 2px;
 
 }
@@ -46,9 +46,11 @@ section {
 .logo {
     height: 60px;
 }
-.shawaizpic {
+.shawaizpic
+ {
      display: flex;
      justify-content: center;
+     height: 300px;
 }
 #erhapic{
     display: flex;
@@ -61,16 +63,20 @@ section {
 }
 .founderparagraph {
 
-    top: 170%;
+    top: 214%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
-    background-color: transparent;
+    background:transparent;
     position: absolute;
+}
+h4{
+    font-size: 32px;
+    text-transform: uppercase;
 }
 .cofounderparagraph {
     position: absolute;
-    top: 303%;
+    top: 305%;
     left: 50%;
     background: transparent;
     transform: translate(-50%, -50%);
@@ -87,17 +93,17 @@ li a {
 }
 #foundername {
     font-size: 21px;
-    letter-spacing: 20px;
+    letter-spacing: 8px;
 }
 #aboutusheading {
     text-align: center;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-size: 40px;
-
+    font-size: 60px;
 }
 
-.partnerlogo {
+.partnerlogo 
+{
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -123,7 +129,12 @@ li a {
     margin: 0 auto
    
 }
-form {
+.services
+{
+    float:left;
+}
+form
+ {
     color: #000;
     text-align: center;
 }
@@ -138,7 +149,7 @@ input {
     background-color: grey;
     align-items: center;
     width: 300px;
-    margin: 0 auto; /* Center the form on the page */
+    margin: 0 auto; 
 
 }
 label {
@@ -154,4 +165,35 @@ button {
 button:hover {
     background-color: darkgrey;
 }
+.topbar a:hover{
+    color: gray;
+}
+.service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+    margin-left: 250px; 
+}
 
+.service-image img {
+    max-width: 100%;
+    height: 300px;
+    justify-content: center;
+}
+
+.service-content {
+    flex: 1;
+    margin-left: 20px;
+    text-align: left;
+    justify-content: left;
+  
+}
+.footerbar
+{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
