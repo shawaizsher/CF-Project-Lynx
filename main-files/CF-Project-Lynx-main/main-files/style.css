@@ -52,7 +52,7 @@ section {
      justify-content: center;
      height: 300px;
 }
-#erhapic{
+#erhapic {
     display: flex;
     justify-content: center;
 }
@@ -196,4 +196,17 @@ button:hover {
     align-items: center;
     justify-content: space-between;
     height: 70px;
+}
+.footerbar
+{
+    display: flex;
+    justify-content: center;
+
+}
+.footerlogos a
+{
+    display: inline flex;
+    height: 50px;
+    justify-content: space-evenly;
+    margin: 10px;
 }
