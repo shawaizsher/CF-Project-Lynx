@@ -19,7 +19,7 @@ function submitForm() {
     {
       successMessage += 'You are subscribed to our newsletter.';
     } 
-    else if(subscribe == 'No')
+    else if(subscribe === 'No')
     {
       successMessage += 'You chose not to subscribe to our newsletter.';
     }

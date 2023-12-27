@@ -249,3 +249,7 @@ button:hover {
     font-weight: bolder;
     height: 150px;
 }
+h4{
+    display: flex;
+    justify-content: center;
+}
