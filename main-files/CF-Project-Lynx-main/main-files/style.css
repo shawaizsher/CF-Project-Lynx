@@ -36,51 +36,69 @@ section {
     font-family: 'Quicksand', sans-serif;
 
 }
-.topbar {
+.topbar
+ {
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 70px;
 }
-.logo {
+.logo 
+{
     height: 60px;
 }
-.shawaizpic
- {
-     display: flex;
-     justify-content: center;
-     height: 300px;
-}
-#erhapic {
-    display: flex;
-    justify-content: center;
+.shawaizpic img,
+#erhapic img,
+.founder img,
+.cofounder img
+{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
 }
 .quotations {
     display: flex;
     justify-content: center;
     position: relative;
+    z-index: 1; 
+    background-color: #000; 
 }
-.founderparagraph {
 
-    top: 214%;
+.founder img,
+.cofounder img 
+{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    position: relative;
+    z-index: 0; 
+}
+
+.founder,
+.cofounder {
+    position: relative;
+    text-align: center;
+    z-index: 2; /* Add a higher z-index to the text */
+}
+
+.founderparagraph,
+.cofounderparagraph {
+    position: absolute;
+    top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 40px;
-    background:transparent;
-    position: absolute;
+    text-align: center;
+    color: white; 
+    font-size: 16px; 
+    max-width: 80%; 
+    z-index: 2; /* Add a higher z-index to the text */
 }
 h4{
     font-size: 32px;
     text-transform: uppercase;
 }
-.cofounderparagraph {
-    position: absolute;
-    top: 340%;
-    left: 50%;
-    background: transparent;
-    transform: translate(-50%, -50%);
-}
+
 li {
     list-style: none;
     display: inline-block;
