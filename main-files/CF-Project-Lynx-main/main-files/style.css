@@ -79,7 +79,7 @@ section {
 .cofounder {
     position: relative;
     text-align: center;
-    z-index: 2; /* Add a higher z-index to the text */
+    z-index: 2; 
 }
 
 .founderparagraph,
@@ -236,7 +236,7 @@ button:hover {
     transform: translate(-50%, -50%);
     z-index: 1;
     width: 80%;
-    max-width: 400px; /* Adjust the maximum width as needed */
+    max-width: 400px; 
     background-color: black;
     padding: 20px;
     border: 1px solid #888;
